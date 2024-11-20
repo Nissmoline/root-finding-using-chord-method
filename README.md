@@ -12,32 +12,34 @@ Solving equations with one variable involves finding the value of the variable t
 - Tolerances $\varepsilon_1$ (precision for arguments) and $\varepsilon_1$ (precision for function values).
 
 ### Output:
-- Roots \( \xi_i \).
-- Function values at roots \( f(\xi_i) \).
-- Number of iterations \( n \).
+- Roots $( ξ_i)$.
+- Function values at roots $ f(ξ_i)$.
+- Number of iterations ( n ).
 - Number of function evaluations.
 - Computation time.
-- Convergence parameter: \( \alpha = \frac{|x_{n+1} - x_n|}{|x_n - x_{n-1}|^n} \), where \( n \) is the order of convergence.
+- Convergence parameter: $a = \frac{|x_{n+1} - x_n|}{|x_n - x_{n-1}|^n}$, where (n) is the order of convergence.
 
 ---
 
 ## Implementation Details
 
 ### Algorithm Description: Chord Method
-The Chord Method iteratively approximates the root of \( f(x) = 0 \) using the formula:
+The Chord Method iteratively approximates the root of  $f(x) = 0$ using the formula:
 
-\[
+$$
 x_{n+1} = x_n - \frac{f(x_n)}{f(b) - f(x_n)} (b - x_n), \text{ if } x_n = a
-\]
-\[
+$$
+
+$$
 x_{n+1} = x_n - \frac{f(x_n)}{f(x_n) - f(a)} (x_n - a), \text{ if } x_n = b
-\]
+$$
+
 
 **Steps:**
-1. **Initial Points:** Select \( a \) and \( b \) such that \( f(a) \cdot f(b) < 0 \).
+1. **Initial Points:** Select (a) and (b) such that f(a) * f(b) < 0.
 2. **Iterative Process:** Apply the chord method formula until the stopping criteria are met:
-   - \( |x_{n+1} - x_n| < \epsilon_1 \), or
-   - \( |f(x_n)| < \epsilon_2 \).
+   - $|x_{n+1} - x_n| < ε₁$, or
+   - $|f(x_n)| < ε₂ $
 3. **Output Results:** Report the root, precision metrics, and performance statistics.
 
 ---
@@ -46,14 +48,12 @@ x_{n+1} = x_n - \frac{f(x_n)}{f(x_n) - f(a)} (x_n - a), \text{ if } x_n = b
 
 Given the function:
 
-\[
-f(x) = 2 \cdot \log_{10}(x + 7) - 5 \cdot \sin(x)
-\]
+$f(x) = 2 \cdot \log_{10}(x + 7) - 5 \cdot \sin(x)$
 
-For the interval \([-5, 1.5]\) with tolerances \( \epsilon_1 = 10^{-6} \) and \( \epsilon_2 = 10^{-6} \), the program iteratively computes the root and displays the following:
+For the interval [-5, 40] with tolerances $( ε₁ = 10^{-6} \)$ and $( ε₂ = 10^{-6} \)$, the program iteratively computes the root and displays the following:
 
-- Root \( x \).
-- \( f(x) \) at the root.
+- Root (x).
+- f(x) at the root.
 - Number of iterations.
 - Function evaluations.
 - Convergence parameter.
@@ -161,4 +161,4 @@ dotnet run
 ---
 
 ## License
-This project is open-source and available under the MIT License.
+This project is open-source and available under the Expat License.
