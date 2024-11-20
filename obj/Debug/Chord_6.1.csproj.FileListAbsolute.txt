@@ -1,0 +1,28 @@
+C:\Users\Kolpa\Desktop\NewLabMath1\Chord_6.1\bin\Debug\Chord_6.1.exe.config
+C:\Users\Kolpa\Desktop\NewLabMath1\Chord_6.1\bin\Debug\Chord_6.1.exe
+C:\Users\Kolpa\Desktop\NewLabMath1\Chord_6.1\bin\Debug\Chord_6.1.pdb
+C:\Users\Kolpa\Desktop\NewLabMath1\Chord_6.1\obj\Debug\Chord_6.1.csproj.AssemblyReference.cache
+C:\Users\Kolpa\Desktop\NewLabMath1\Chord_6.1\obj\Debug\Chord_6.1.csproj.CoreCompileInputs.cache
+C:\Users\Kolpa\Desktop\NewLabMath1\Chord_6.1\obj\Debug\Chord_6.1.exe
+C:\Users\Kolpa\Desktop\NewLabMath1\Chord_6.1\obj\Debug\Chord_6.1.pdb
+C:\Users\Kolpa\Desktop\LabM1\Chord_6.1\bin\Debug\Chord_6.1.exe.config
+C:\Users\Kolpa\Desktop\LabM1\Chord_6.1\bin\Debug\Chord_6.1.exe
+C:\Users\Kolpa\Desktop\LabM1\Chord_6.1\bin\Debug\Chord_6.1.pdb
+C:\Users\Kolpa\Desktop\LabM1\Chord_6.1\obj\Debug\Chord_6.1.csproj.AssemblyReference.cache
+C:\Users\Kolpa\Desktop\LabM1\Chord_6.1\obj\Debug\Chord_6.1.csproj.CoreCompileInputs.cache
+C:\Users\Kolpa\Desktop\LabM1\Chord_6.1\obj\Debug\Chord_6.1.exe
+C:\Users\Kolpa\Desktop\LabM1\Chord_6.1\obj\Debug\Chord_6.1.pdb
+C:\Users\Kolpa\Desktop\LabM1 (3)\Chord_6.1\bin\Debug\Chord_6.1.exe.config
+C:\Users\Kolpa\Desktop\LabM1 (3)\Chord_6.1\bin\Debug\Chord_6.1.exe
+C:\Users\Kolpa\Desktop\LabM1 (3)\Chord_6.1\bin\Debug\Chord_6.1.pdb
+C:\Users\Kolpa\Desktop\LabM1 (3)\Chord_6.1\obj\Debug\Chord_6.1.csproj.AssemblyReference.cache
+C:\Users\Kolpa\Desktop\LabM1 (3)\Chord_6.1\obj\Debug\Chord_6.1.csproj.CoreCompileInputs.cache
+C:\Users\Kolpa\Desktop\LabM1 (3)\Chord_6.1\obj\Debug\Chord_6.1.exe
+C:\Users\Kolpa\Desktop\LabM1 (3)\Chord_6.1\obj\Debug\Chord_6.1.pdb
+C:\Users\Kolpa\Desktop\Марина Лаб 1\Chord_6.1\bin\Debug\Chord_6.1.exe.config
+C:\Users\Kolpa\Desktop\Марина Лаб 1\Chord_6.1\bin\Debug\Chord_6.1.exe
+C:\Users\Kolpa\Desktop\Марина Лаб 1\Chord_6.1\bin\Debug\Chord_6.1.pdb
+C:\Users\Kolpa\Desktop\Марина Лаб 1\Chord_6.1\obj\Debug\Chord_6.1.csproj.AssemblyReference.cache
+C:\Users\Kolpa\Desktop\Марина Лаб 1\Chord_6.1\obj\Debug\Chord_6.1.csproj.CoreCompileInputs.cache
+C:\Users\Kolpa\Desktop\Марина Лаб 1\Chord_6.1\obj\Debug\Chord_6.1.exe
+C:\Users\Kolpa\Desktop\Марина Лаб 1\Chord_6.1\obj\Debug\Chord_6.1.pdb
