@@ -7,14 +7,14 @@ This repository contains a program for solving equations with one variable using
 Solving equations with one variable involves finding the value of the variable that satisfies the equation $f(x) = 0$. This program implements the **Chord Method** for solving such equations and provides the following functionalities:
 
 ### Input:
-- A function f(x) (along with its derivatives if required for advanced methods).
+- A function $f(x)$ (along with its derivatives if required for advanced methods).
 - Interval [a, b].
 - Tolerances $\varepsilon_1$ (precision for arguments) and $\varepsilon_1$ (precision for function values).
 
 ### Output:
 - Roots $( ξ_i)$.
 - Function values at roots $f(ξ_i)$.
-- Number of iterations (n).
+- Number of iterations $(n)$.
 - Number of function evaluations.
 - Computation time.
 - Convergence parameter: $a = \frac{|x_{n+1} - x_n|}{|x_n - x_{n-1}|^n}$, where (n) is the order of convergence.
@@ -36,7 +36,7 @@ $$
 
 
 **Steps:**
-1. **Initial Points:** Select (a) and (b) such that f(a) * f(b) < 0.
+1. **Initial Points:** Select $(a)$ and $(b)$ such that $f(a) * f(b) < 0.$
 2. **Iterative Process:** Apply the chord method formula until the stopping criteria are met:
    - $|x_{n+1} - x_n| < ε₁$, or
    - $|f(x_n)| < ε₂ $
@@ -52,7 +52,7 @@ $f(x) = 2 \cdot \log_{10}(x + 7) - 5 \cdot \sin(x)$
 
 For the interval [-5, 40] with tolerances $( ε₁ = 10^{-6} \)$ and $( ε₂ = 10^{-6} \)$, the program iteratively computes the root and displays the following:
 
-- Root (x).
+- Root $(x)$.
 - $f(x)$ at the root.
 - Number of iterations.
 - Function evaluations.
@@ -88,7 +88,7 @@ static void Main()
 ```
 
 ### Function Implementation
-**Function \( f(x) \):**
+**Function $f(x)$:**
 ```csharp
 static double f(double x)
 {
