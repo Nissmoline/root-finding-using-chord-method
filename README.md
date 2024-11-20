@@ -13,8 +13,8 @@ Solving equations with one variable involves finding the value of the variable t
 
 ### Output:
 - Roots $( ξ_i)$.
-- Function values at roots $ f(ξ_i)$.
-- Number of iterations ( n ).
+- Function values at roots $f(ξ_i)$.
+- Number of iterations (n).
 - Number of function evaluations.
 - Computation time.
 - Convergence parameter: $a = \frac{|x_{n+1} - x_n|}{|x_n - x_{n-1}|^n}$, where (n) is the order of convergence.
@@ -53,7 +53,7 @@ $f(x) = 2 \cdot \log_{10}(x + 7) - 5 \cdot \sin(x)$
 For the interval [-5, 40] with tolerances $( ε₁ = 10^{-6} \)$ and $( ε₂ = 10^{-6} \)$, the program iteratively computes the root and displays the following:
 
 - Root (x).
-- f(x) at the root.
+- $f(x)$ at the root.
 - Number of iterations.
 - Function evaluations.
 - Convergence parameter.
