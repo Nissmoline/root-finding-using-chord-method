@@ -4,7 +4,7 @@ This repository contains a program for solving equations with one variable using
 
 ## Problem Statement
 
-Solving equations with one variable involves finding the value of the variable that satisfies the equation f(x) = 0. This program implements the **Chord Method** for solving such equations and provides the following functionalities:
+Solving equations with one variable involves finding the value of the variable that satisfies the equation $f(x) = 0$. This program implements the **Chord Method** for solving such equations and provides the following functionalities:
 
 ### Input:
 - A function f(x) (along with its derivatives if required for advanced methods).
