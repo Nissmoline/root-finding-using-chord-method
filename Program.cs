@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 
 namespace ChordOptimized
@@ -7,15 +7,15 @@ namespace ChordOptimized
     {
         static void Main()
         {
-            Console.WriteLine("Введите границы интервала через пробел [a,b]:");
+            Console.WriteLine("Enter the interval boundaries separated by a space [a,b]:");
             string[] inputs = Console.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             double a = double.Parse(inputs[0]);
             double b = double.Parse(inputs[1]);
 
-            Console.WriteLine("Введите точность по аргументу (eps1):");
+            Console.WriteLine("Enter the accuracy for the argument (eps1):");
             double epsilon1 = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Введите точность по функции (eps2):");
+            Console.WriteLine("Enter the accuracy for the function (eps2):");
             double epsilon2 = Convert.ToDouble(Console.ReadLine());
 
             Stopwatch totalStopwatch = Stopwatch.StartNew();
@@ -23,8 +23,8 @@ namespace ChordOptimized
             totalStopwatch.Stop();
 
             double totalElapsedMilliseconds = totalStopwatch.Elapsed.TotalMilliseconds;
-            Console.WriteLine("\nОбщее время счета: {0} мс", totalElapsedMilliseconds);
-            Console.WriteLine("\nНажмите Enter для выхода...");
+            Console.WriteLine("\nTotal calculation time: {0} ms", totalElapsedMilliseconds);
+            Console.WriteLine("\nPress Enter to exit...");
             Console.ReadLine();
         }
 
@@ -48,13 +48,13 @@ namespace ChordOptimized
 
                     if (!double.IsNaN(root))
                     {
-                        Console.WriteLine("\nНайден корень: x = {0:F6}", root);
-                        Console.WriteLine("Погрешность: {0:E6}", error);
-                        Console.WriteLine("Значение функции f(Xi): {0:E6}", f(root));
-                        Console.WriteLine("Количество итераций: {0}", iterations);
-                        Console.WriteLine("Количество вычислений функции f(x): {0}", funcEvaluations);
-                        Console.WriteLine("Время счета: {0} мс", elapsedMilliseconds);
-                        Console.WriteLine("Параметр сходимости: {0:F6}", convergenceParameter);
+                        Console.WriteLine("\nRoot found: x = {0:F6}", root);
+                        Console.WriteLine("Error: {0:E6}", error);
+                        Console.WriteLine("Function value f(Xi): {0:E6}", f(root));
+                        Console.WriteLine("Number of iterations: {0}", iterations);
+                        Console.WriteLine("Number of function evaluations f(x): {0}", funcEvaluations);
+                        Console.WriteLine("Calculation time: {0} ms", elapsedMilliseconds);
+                        Console.WriteLine("Convergence parameter: {0:F6}", convergenceParameter);
                     }
                 }
                 fa = fxStep;
@@ -78,11 +78,11 @@ namespace ChordOptimized
             double x_fixed, x_prev;
             double f_fixed, f_prev;
 
-            // Вычисление значения функции в концах отрезка
+            // Calculate function values at the ends of the segment
             double f_a = f(a); funcEvaluations++;
             double f_b = f(b); funcEvaluations++;
 
-            // Тут я определила, какой конец будем фиксировать
+            // Determine which end will be fixed
             if (Math.Abs(f_a) > Math.Abs(f_b))
             {
                 x_fixed = a;
@@ -108,7 +108,6 @@ namespace ChordOptimized
 
             do
             {
-
                 x_curr = x_prev - f_prev * (x_fixed - x_prev) / (f_fixed - f_prev);
                 funcEvaluations++;
                 f_curr = f(x_curr);
@@ -118,7 +117,7 @@ namespace ChordOptimized
 
                 if (iterations > 0 && prevError != 0)
                 {
-                    convergenceParameter = error / prevError; // Порядок сходимости p = 1 для метода хорд
+                    convergenceParameter = error / prevError; // Order of convergence p = 1 for the chord method
                 }
 
                 x_prev = x_curr;
