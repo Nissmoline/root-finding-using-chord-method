@@ -27,11 +27,11 @@ Solving equations with one variable involves finding the value of the variable t
 The Chord Method iteratively approximates the root of  $f(x) = 0$ using the formula:
 
 $$
-x_{n+1} = x_n - \frac{f(x_n)}{f(b) - f(x_n)} (b - x_n), \text{ if } x_n = a
+x_{n+1} = x_n - \frac{f(x_n)}{f(b) - f(x_n)} (b - x_n), \text{  if  } x_n = a
 $$
 
 $$
-x_{n+1} = x_n - \frac{f(x_n)}{f(x_n) - f(a)} (x_n - a), \text{ if } x_n = b
+x_{n+1} = x_n - \frac{f(x_n)}{f(x_n) - f(a)} (x_n - a), \text{  if  } x_n = b
 $$
 
 
