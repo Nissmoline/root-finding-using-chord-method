@@ -17,7 +17,7 @@ Solving equations with one variable involves finding the value of the variable t
 - Number of iterations $(n)$.
 - Number of function evaluations.
 - Computation time.
-- Convergence parameter: $a = \frac{|x_{n+1} - x_n|}{|x_n - x_{n-1}|^n}$, where (n) is the order of convergence.
+- Convergence parameter: $a = \frac{|x_{n+1} - x_n|}{|x_n - x_{n-1}|^n}$, where $(n)$ is the order of convergence.
 
 ---
 
